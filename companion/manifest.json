@@ -1,0 +1,28 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"type": "connection",
+	"id": "svt-bridge",
+	"name": "svt-bridge",
+	"shortname": "svt-bridge",
+	"description": "Interact with the Bridge playout client",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-svt-bridge.git",
+	"bugs": "https://github.com/bitfocus/companion-module-svt-bridge/issues",
+	"maintainers": [
+		{
+			"name": "Axel Boberg",
+			"email": "git@axelboberg.se"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../src/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "SVT",
+	"products": ["Bridge"],
+	"keywords": []
+}
